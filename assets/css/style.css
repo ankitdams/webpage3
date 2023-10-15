@@ -3,23 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/*Header Section Start*/
 header{
     width:100vw;
-    height: 50px;
+    height: 75PX;
     color: #fff;
     display: flex;
     padding: 0px 100px;
     justify-content: space-between;
     align-items: center;
     background: #022d7c;
-
 }
+/*Header Section End*/
+/*banner section start*/
 .banner{
     width: 100%;
     height: 700px;
     color: #fff;
     display: flex;
-    padding: 0px 100px;
+    padding: 0px 100px; 
     align-items: center;
     justify-content: space-between;
     background-size: cover;
@@ -31,12 +33,12 @@ header{
 }
 .banner h1 span{
     display: block;
-    font-size: 77px;
+    font-size: 80px;
     font-weight: 600;
 }
 .banner aside{
     padding: 20px;
-    border-radius: 7px;
+    border-radius: 10px;
     text-align: center;
     background: #022d7c;
 }
@@ -45,6 +47,94 @@ header{
 .banner aside button
 {
     width: 100%;
-    height: 40px;
+    height: 50px;
     margin: 5px;
 }
+/*banner section End*/
+/*Features section start*/
+.feature{
+    width: 100%;
+    height:auto;
+    display: flex;
+    color: #022d7c;
+    padding: 30px 30px 10px 80px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 70%;
+    height: 400px;
+}
+.feature div h2 {
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+.feature div img{ 
+    width:80%;
+    height: 60%;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 100px 20px 10px;
+}
+/*Features section end*/
+/* About section start */
+.about{
+    width: 100%;
+    padding: 60px 300px;
+    height: auto;
+    text-align: center;
+    background: #022d7c;
+    color: #fff;
+
+}
+.about h2{
+    font-size: 35px;
+    margin-bottom: 7px;
+    color: #fff;
+}
+.about p{
+    height:100px;
+    font-size: 18px;
+    color: #fff;
+}
+.about button{
+    color: #fff;
+    padding: 15px 60px;
+    margin-top: 10px;
+    font-weight: bold;
+    background: #022d7c;
+    border-radius: 4px;
+    border: 2px solid #fff;
+}
+/* About section End */
+/* Service section start*/
+.service{
+    width: 100%;
+    height:auto;
+    padding: 0px 50px;
+}
+.service .upper ,.service .lower{
+display: flex;
+align-items:center;
+}
+.service .image,.service .content{
+    width: 50%;
+    text-align:justify;
+}
+.upper .image img,.lower .image img{
+    width:795px;
+    height: 450px;
+}
+/* Service section end*/
+/* Footer section start*/
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align:center;
+    padding: 25px 100px;
+    background: #022d7c;
+}
+/* Footer section end*/
