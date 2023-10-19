@@ -113,7 +113,7 @@ header{
 .service{
     width: 100%;
     height:auto;
-    padding: 0px 50px;
+    padding: 0px 40px;
 }
 .service .upper ,.service .lower{
 display: flex;
@@ -123,9 +123,9 @@ align-items:center;
     width: 50%;
     text-align:justify;
 }
-.upper .image img,.lower .image img{
-    width:795px;
-    height: 300px;
+.service .upper .image img ,.lower .image img{
+    width:800px;
+    height: 450px;
 }
 /* Service section end*/
 /* Footer section start*/
